@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D9E8EF;
+}
+
+nav{
+    background: #FFFFFF;
+    height: 60px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.NavLogo{
+    margin-left: 20px;
+    width: 8%;
+}
+
+li a.IniciarSesion{
+    background: #F1E4FF;
+    color: #8C30F5;
+    transition: 5s;
+}
+li a.Registrarse{
+    background: #8C30F5;
+    color: #F1E4FF;
+    transition: 5s;
+}
+
+.imgApple{
+    width: 120px;
+    height: 45px;
+    margin: 5px;
+}
+
+.imgAndroid{
+    width: 120px;
+    height: 45px;
+    margin: 5px;
+}
+
+.conteinerA{
+    display: flex;
+    align-items: flex-start;
+    width: 60%;
+    margin: 100px auto;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    padding-bottom: 10px;
+}
+
+p{
+    color: #18191F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 10px;
+}
+
+.screen1{
+    width: 140%;
+}
+
+img{
+    width: 260px;
+    padding-left: 10%;
+}
+
+.containerDonacion{
+    display: flex;
+    margin: 0 auto;
+}
+
+.CD1{
+    align-items: center;
+    margin-left: 10%;
+}
+.CD2{
+    align-items: center;
+    margin: 0 auto;
+}
+
+.CD3{
+    align-items: center;
+    margin-right: 10%;
+}
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+
+    /* or 136% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 800 */
+    color: #474A57;
+    padding-bottom: 20px;
+}
+h3{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-style: normal;
+    line-height: 32px;
+    font-size: 18px;
+
+    /* identical to box height, or 178% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+.containerDonacion p{
+    text-align: center;
+}
+
+section p{
+    text-align: center;
+    padding-bottom: 15px;
+    padding: 5%;
+}
+
+.conteinerFuncion{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.conteinerFuncion h2{
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    height: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.conteinerS{
+    display: flex;
+    margin: 0 auto;
+}
+
+.boxCF1{
+    align-items: center; 
+    margin-right: 5%;
+}
+
+.list{
+    margin-left: 30%;
+}
+
+.crearCuenta{
+    margin: auto;
+    width: 1200px;
+    height: 531px;
+    left: 31px;
+    top: 2539px;
+    background: rgba(217, 217, 217, 0.68);
+}
+
+.conteinerCC{
+    display: flex;
+    margin: 20px 200px;
+    padding: 80px;
+}
+
+.boxCC1{
+    align-items: center; 
+    margin-right: 5%;
+}
+
+
+
+

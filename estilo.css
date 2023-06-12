@@ -137,6 +137,10 @@ li a.Registrarse{
     justify-content: center;
 }
 
+.screen2{
+    width: 260px;
+    padding-left: 10%;
+}
 .Paso2{
     width: 90%;
     margin: 0 auto;
@@ -210,3 +214,4 @@ li a.Registrarse{
    margin: 1rem;
    padding: 1rem;
 }
+

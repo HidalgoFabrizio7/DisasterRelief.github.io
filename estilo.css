@@ -12,9 +12,15 @@ body{
 
 nav{
     background: #FFFFFF;
-    height: 60px;
+    height: 80px;
     width: 100%;
 }
+
+.logo{
+    margin-left: 20px;
+    width: 8%;
+}
+
 nav ul{
     float: right;
     margin-right: 20px;
@@ -22,24 +28,16 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    line-height: 55px;
+    line-height: 80px;
     margin: 0 5px;
 }
 
 nav ul li a{
     color: black;
+    font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: capitalize;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-}
-
-.NavLogo{
-    margin-left: 20px;
-    width: 8%;
 }
 
 li a.IniciarSesion{
@@ -52,162 +50,163 @@ li a.Registrarse{
     color: #F1E4FF;
     transition: 5s;
 }
-
 .imgApple{
     width: 120px;
     height: 45px;
     margin: 5px;
 }
-
 .imgAndroid{
     width: 120px;
     height: 45px;
     margin: 5px;
 }
 
-.conteinerA{
+.Inicio{
+    padding: 3rem 0;
+}
+
+.ConteinerA{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.columna1A{
+    padding: 2rem 2rem;
     display: flex;
-    align-items: flex-start;
-    width: 60%;
-    margin: 100px auto;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    flex-direction: column;
+    justify-content: center;
 }
 
-h1{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 72px;
-    line-height: 98px;
-    padding-bottom: 10px;
+.Quehacemos{
+    padding: 3rem 0;
 }
 
-p{
-    color: #18191F;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    padding-bottom: 10px;
+.IntroA{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+    margin-top: 2%;
 }
 
-.screen1{
-    width: 140%;
-}
-
-img{
+.imgB{
     width: 260px;
     padding-left: 10%;
 }
 
-.containerDonacion{
+.conteinerB{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.columna1B{
+    padding: 2rem 2rem;
     display: flex;
-    margin: 0 auto;
-}
-
-.CD1{
-    align-items: center;
-    margin-left: 10%;
-}
-.CD2{
-    align-items: center;
-    margin: 0 auto;
-}
-
-.CD3{
-    align-items: center;
-    margin-right: 10%;
-}
-h2{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 72px;
-    line-height: 98px;
-
-    /* or 136% */
-    text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-
-    /* Text / Gray 800 */
-    color: #474A57;
-    padding-bottom: 20px;
-}
-h3{
-    font-family: 'Inter';
-    font-weight: 800;
-    font-style: normal;
-    line-height: 32px;
-    font-size: 18px;
-
-    /* identical to box height, or 178% */
-    text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-
-    /* Text / Gray 900 */
-    color: #18191F;
-}
-
-.containerDonacion p{
-    text-align: center;
-}
-
-section p{
-    text-align: center;
-    padding-bottom: 15px;
-    padding: 5%;
-}
-
-.conteinerFuncion{
-    display: flex;
-    margin: 0 auto;
     flex-direction: column;
+    justify-content: center;
 }
 
-.conteinerFuncion h2{
-    align-items: center;
+.Comofunciona{
+    padding: 3rem 0;
+}
+
+.IntroB{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+    margin-top: 2%;
+}
+
+.Paso1{
+    width: 90%;
     margin: 0 auto;
-    display: flex;
-    height: 20px;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
 }
 
-.conteinerS{
+.columnaT{
+    padding: 2rem 2rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Paso2{
+    width: 90%;
     margin: 0 auto;
-}
-
-.boxCF1{
-    align-items: center; 
-    margin-right: 5%;
-}
-
-.list{
-    margin-left: 30%;
-}
-
-.crearCuenta{
-    margin: auto;
-    width: 1200px;
-    height: 531px;
-    left: 31px;
-    top: 2539px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
     background: rgba(217, 217, 217, 0.68);
 }
 
-.conteinerCC{
+.Paso3{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.Referencias{
+    padding: 3rem 0;
+}
+
+.IntroC{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+    margin-top: 2%;
+}
+
+.conteinerC{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.columna1C{
+    padding: 2rem 2rem;
     display: flex;
-    margin: 20px 200px;
-    padding: 80px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.boxCC1{
-    align-items: center; 
-    margin-right: 5%;
+.Donaciones{
+    padding: 3rem 0;
 }
 
+.IntroD{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+    margin-top: 2%;
+}
 
+.conteinerD{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
 
-
+.columna1D{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.listD li {
+   background-color: #D9D9D9;
+   margin: 1rem;
+   padding: 1rem;
+}

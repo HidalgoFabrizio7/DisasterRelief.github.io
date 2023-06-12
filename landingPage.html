@@ -1,94 +1,212 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Disaster Relief</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-    <nav>
-        <a href="#"><img class="NavLogo" src="images/example-1.svg" alt=""></a>
-        <ul>
-            <li><a href="#">Nuestro servicio</a></li>
-            <li><a href="#">Donaciones</a></li>
-            <li><a href="#">Testimonios</a></li>
-            <li><a href="#">Contactanos</a></li>
-            <li><a href="#">Alertas</a></li>
-            <li><a href="#">Mapa</a></li>
-            <li><a href="#">Guia de emergencia</a></li>
-            <li><a class="IniciarSesion" href="#">Iniciar Sesion</a></li>
-            <li><a class="Registrarse" href="#">Registrarse</a></li>
-        </ul>
-    </nav>
-    <section class="Bienvenida">
-        <div class="conteinerA">
-            <div class="box1">
-                <h1>Bienvenido a DISASTER RELIEF</h1>
-                <P>Incribete y descubre como obtener <br> ayuda o comunicartecon un donante.</P>
-                <ul>
-                    <li><img class="imgApple" src="images/5a902db97f96951c82922874.png" alt=""></li>
-                    <li><img class="imgAndroid" src="images/5a902db97f96951c82922874.png" alt=""></li>
-                </ul>
-            </div>
-            <div>
-                <img class="screen1" src="images/DR2.png" alt="">
-            </div>
-        </div>
-    </section>
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 
-    <section>
-        <h2>Obten asistencia tan pronto <br> sea posible</h2>
-        <p>Te ofrecemos todas las comodidades para que puedas comunicarte con un donante y recibir tu donacion sin contratiempos.</p>
-        <div class="containerDonacion">
-            <div class="CD1">
-                <img src="images/buscaDonante.png" alt="">
-                <h3>Busca un donante</h3>
-                <p>Encuentra un donante que esté inscrito <br> y verifica su estado en la página web.</p>
-            </div>
-            <div class="CD2">
-                <img src="images/buscaDonante.png" alt="">
-                <h3>Contacta con el docente</h3>
-                <p>Comunícate con el donante disponible <br> que hayas encontrado y acuerda <br> sobre la ayuda que recibirás.</p>
-            </div>
-            <div class="CD3">
-                <img src="images/buscaDonante.png" alt="">
-                <h3>Recibe tu donacion</h3>
-                <p>En todo momento puedes verificar <br> el progreso de la donación y recibirás <br> una notificación cuando esté lista <br> para ser recogida.</p>
-            </div>
-        </div>
-    </section>
+body{
+    background-color: #D9E8EF;
+}
 
-    <section class="conteinerFuncion">
-        <h2>¿Como funciona?</h2>
-        <div class="conteinerS">
-            <div class="boxCF1"><img class="DR1" src="images/DR1.png" alt=""></div>
-        <div class="conteinerXS">
-            <h3>Descargar la aplicación</h3>
-            <p>Obtén la asistencia que necesitas desde cualquier ubicación. <br> Disponible en dispositivos iOS y Android.</p>
-            <ul class="list">
-                <li><img class="imgApple" src="images/5a902db97f96951c82922874.png" alt=""></li>
-                <li><img class="imgAndroid" src="images/5a902db97f96951c82922874.png" alt=""></li>
-            </ul>
+nav{
+    background: #FFFFFF;
+    height: 80px;
+    width: 100%;
+}
 
-        </div>
-        </div>
-        
-    </section>
-        
-    <section class="crearCuenta">
-        <div class="conteinerCC">
-            <img class="boxCC1" src="images/DR2.png" alt="">
-            <div class="boxCC2">
-                <h3>Crear una cuenta</h3>
-                <p>Regístrate de manera gratuita proporcionando tus <br> datos y accede a nuestra aplicación.</p>
-            </div>
-        </div>
+.logo{
+    margin-left: 20px;
+    width: 8%;
+}
 
-    </section>
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
 
-    <section>
-        
-    </section>
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
 
-</body>
-</html>
+nav ul li a{
+    color: black;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+li a.IniciarSesion{
+    background: #F1E4FF;
+    color: #8C30F5;
+    transition: 5s;
+}
+li a.Registrarse{
+    background: #8C30F5;
+    color: #F1E4FF;
+    transition: 5s;
+}
+.imgApple{
+    width: 120px;
+    height: 45px;
+    margin: 5px;
+}
+.imgAndroid{
+    width: 120px;
+    height: 45px;
+    margin: 5px;
+}
+
+.Inicio{
+    padding: 3rem 0;
+}
+
+.ConteinerA{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.columna1A{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Quehacemos{
+    padding: 3rem 0;
+}
+
+.IntroA{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+    margin-top: 2%;
+}
+
+.imgB{
+    width: 260px;
+    padding-left: 10%;
+}
+
+.conteinerB{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.columna1B{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Comofunciona{
+    padding: 3rem 0;
+}
+
+.IntroB{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+    margin-top: 2%;
+}
+
+.Paso1{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.columnaT{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Paso2{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+    background: rgba(217, 217, 217, 0.68);
+}
+
+.Paso3{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.Referencias{
+    padding: 3rem 0;
+}
+
+.IntroC{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+    margin-top: 2%;
+}
+
+.conteinerC{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.columna1C{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Donaciones{
+    padding: 3rem 0;
+}
+
+.IntroD{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+    margin-top: 2%;
+}
+
+.conteinerD{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 1.2rem;
+}
+
+.columna1D{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.listD li {
+   background-color: #D9D9D9;
+   margin: 1rem;
+   padding: 1rem;
+}

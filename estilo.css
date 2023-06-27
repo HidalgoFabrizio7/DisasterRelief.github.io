@@ -19,14 +19,16 @@ nav{
     align-items: center;
 }
 nav ul{
-    text-align: right;
+    align-items: center;
+
     margin-right: 5px;
 }
 
 nav ul li{
+    
     display: inline-block;
     line-height: 55px;
-    margin: 5px;
+    margin: 7px;
 }
 
 nav ul li a{
@@ -45,9 +47,10 @@ li a.active,li a:hover{
 }
 
 .NavLogo{
-    align-item: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+ 
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 10px;
     height: 4rem;
 }
 
